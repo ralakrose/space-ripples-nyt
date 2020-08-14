@@ -1,0 +1,231 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+ol,
+ul {
+  list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+blockquote,
+q {
+  quotes: "" "";
+}
+.body {
+  display: block;
+  overflow-x: hidden;
+  color: #333;
+}
+.pageheader {
+  position: fixed;
+  width: 100%;
+  height: 43px;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  background-color: #fff;
+  border-bottom: none;
+}
+.header {
+  width: 100%;
+}
+.header-left-buttons {
+  justify-content: space-around;
+  left: 10px;
+  position: absolute;
+  width: 76px;
+  height: 33px;
+}
+
+.btn-left-header {
+  background: transparent;
+  border: none;
+  align-items: flex-start;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+#bars {
+  margin: 0px 8px 0px 0px;
+  padding: 8px 9px 9px;
+}
+#search {
+  padding: 8px 9px 9px;
+}
+.header-section-label {
+  display: block;
+  position: absolute;
+  left: 105px;
+  line-height: 19px;
+  top: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.header-lbl {
+  font-size: 14.25px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+}
+.logo {
+  padding-top: 0px;
+  text-align: center;
+}
+.nyt-logo {
+  width: 195px;
+  height: 26px;
+  margin: 6px auto 0;
+}
+.logo-img {
+  width: 195px;
+  height: 35px;
+}
+.header-right-buttons {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  max-width: 200px;
+}
+.subscribe-link {
+  display: inline-block;
+  margin-right: 7px;
+}
+.login-link {
+  display: inline-block;
+  margin-right: 7px;
+}
+.btn-subscribe {
+  padding: 11px 12px 8px;
+  cursor: pointer;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: rgb(86, 123, 149);
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all 0.6s ease 0s;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  max-width: 119px;
+}
+.btn-login {
+  padding: 11px 12px 8px;
+  cursor: pointer;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: rgb(86, 123, 149);
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all 0.6s ease 0s;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  max-width: 63px;
+}
