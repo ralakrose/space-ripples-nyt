@@ -12,37 +12,160 @@
     <title>The New York Times</title>
   </head>
   <body>
-    <div class="pageheader">
-      <header class="header">
-        <section>
-          <div class="header-left-buttons">
-            <button type="button" class="btn-left-header" id="bars">
-              <i class="fa fa-bars" aria-hidden="true"></i>
-            </button>
-            <button type="button" class="btn-left-header" id="search">
-              <i class="fa fa-search" aria-hidden="true"></i>
-            </button>
+    <main>
+      <div class="pageheader">
+        <!--Page Header-->
+        <header class="header">
+          <section>
+            <div class="header-left-buttons">
+              <button type="button" class="btn-left-header" id="bars">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </button>
+              <button type="button" class="btn-left-header" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="header-section-label">
+              <a href="" class="header-lbl">Space & Cosmos</a>
+            </div>
+            <div class="logo">
+              <a href="" class="nyt-logo"
+                ><img src="nytlogo.png" alt="" class="logo-img"
+              /></a>
+            </div>
+            <div class="header-right-buttons">
+              <a href="" class="subsribe-link"
+                ><button type="button" class="btn-subscribe">
+                  SUBSCRIBE NOW
+                </button></a
+              >
+              <a href="" class="login-link"
+                ><button type="button" class="btn-login">LOG IN</button></a
+              >
+            </div>
+          </section>
+        </header>
+      </div>
+      <!--The Newspaper Itself-->
+      <div class="main-container">
+        <article class="article">
+          <div class="separate"></div>
+          <div class="ad-wrapper">
+            <div class="advert">
+              <p>ADVERTISEMENT</p>
+            </div>
           </div>
-          <div class="header-section-label">
-            <a href="" class="header-lbl">Space & Cosmos</a>
-          </div>
-          <div class="logo">
-            <a href="" class="nyt-logo"
-              ><img src="nytlogo.png" alt="" class="logo-img"
-            /></a>
-          </div>
-          <div class="header-right-buttons">
-            <a href="" class="subsribe-link"
-              ><button type="button" class="btn-subscribe">
-                SUBSCRIBE NOW
-              </button></a
-            >
-            <a href="" class="login-link"
-              ><button type="button" class="btn-login">LOG IN</button></a
-            >
-          </div>
-        </section>
-      </header>
-    </div>
+          <header class="article-header">
+            <div class="article-title-container">
+              <h1 class="article-title">
+                Space Ripples Reaveal Big Bang's Smoking Gun
+              </h1>
+            </div>
+            <div class="image-wrapper">
+              <div class="image-container">
+                <div class="image">
+                  <img src="sample.jpg" alt="" id="img1" />
+                </div>
+              </div>
+              <caption class="caption1">
+                <span style="font-size: 15px;"
+                  >Alan Guth was one of the first physicists to hypothesize the
+                  existence of inflation, which explains how the universe
+                  expanded so uniformly and so quickly in the instant after the
+                  Big Bang 13.8 billion years ago.</span
+                >
+                <span
+                  ><span style="color: #888; font-size:12px;"
+                    >Rick Friedman for The New York Times</span
+                  ></span
+                >
+              </caption>
+            </div>
+            <div class="article-title1">
+              <div class="article-title-content">
+                <div class="author-container">
+                  <p class="author">
+                    By
+                    <!-- -->
+                    <a href="" class="author-link">
+                      <span class="author-link-text">Dennis Overbye</span>
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <ul class="date-icons">
+                <li class="date1">
+                  <time datetime="2014-03-17T10:46:03-04:00" class="date-time1"
+                    >March 17, 2014</time
+                  >
+                </li>
+                <li class="icons1">
+                  <div class="icon-container1">
+                    <div class="toolbar1">
+                      <ul class="toolbar-list1">
+                        <li class="social-fb">
+                          <a href="" class="fb-link"
+                            ><button id="social-media">
+                              <i
+                                class="fa fa-facebook"
+                                aria-hidden="true"
+                              ></i></button
+                          ></a>
+                        </li>
+                        <li class="social-twitter">
+                          <a href="" class="twitter-link"
+                            ><button id="social-media">
+                              <i
+                                class="fa fa-twitter"
+                                aria-hidden="true"
+                              ></i></button
+                          ></a>
+                        </li>
+                        <li class="social-email">
+                          <a href="" class="email-link"
+                            ><button id="social-media">
+                              <i
+                                class="fa fa-envelope"
+                                aria-hidden="true"
+                              ></i></button
+                          ></a>
+                        </li>
+                        <li class="social-more-share">
+                          <a href="" class="more-share-link"
+                            ><button id="social-media">
+                              <i
+                                class="fa fa-share"
+                                aria-hidden="true"
+                              ></i></button
+                          ></a>
+                        </li>
+                        <li class="social-bookmark">
+                          <a href="" class="bookmark-link"
+                            ><button id="btn-bookmark">
+                              <i
+                                class="fa fa-bookmark-o"
+                                aria-hidden="true"
+                              ></i></button
+                          ></a>
+                        </li>
+                        <li class="social-comments">
+                          <a href="" class="comments-link"
+                            ><button class="btn-comments">
+                              <i
+                                class="fa fa-comment-o"
+                                aria-hidden="true"
+                              ></i></button
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </header>
+        </article>
+      </div>
+    </main>
   </body>
 </html>
