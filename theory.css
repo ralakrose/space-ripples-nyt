@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+  color: #333;
+  background-color: #fff;
+  display: block;
+}
+div {
+  display: block;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 0 0 1em;
+}
+
+.theory-wrapper {
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.main-container {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 0;
+  min-width: 100%;
+  max-width: 100%;
+}
+.inflation-article {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block;
+}
+.inflation-header {
+  padding-bottom: 0;
+  border-bottom: none;
+  margin-bottom: 0;
+  position: relative;
+  display: block;
+}
+.inflation-header-text {
+  margin-bottom: 10px;
+}
+.inflation-headline {
+  font-size: 1.25rem;
+  margin-bottom: 2px;
+  color: #000;
+  margin: 0;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+}
+.inflation-headline-footer {
+  border-top: none;
+  padding-top: 0;
+}
+.inflation-headline-summary {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
+  color: #666;
+  margin-bottom: 0;
+}
+.summary-text {
+  font-size: 0.875rem;
+  line-height: 18px;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
+  color: #666;
+}
+.the-theory-itself {
+  display: block;
+}
+.inflation-grid {
+  position: relative;
+  overflow: hidden;
+  width: 945px;
+}
+#grid-image {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.inflation-grid-container p {
+  margin: 0;
+}
+.inflation-grid-container .grid-box-text {
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000000;
+}
+.grid-text-title {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.grid-box-1 {
+  top: 24.8264%;
+  left: 0.0436%;
+  width: 228px;
+  position: absolute;
+}
+.grid-box-2 {
+  position: absolute;
+  top: 24.8264%;
+  left: 25.5619%;
+  width: 228px;
+}
+.grid-box-3 {
+  position: absolute;
+  top: 24.8264%;
+  left: 51.08%;
+  width: 228px;
+}
+.grid-box-4 {
+  position: absolute;
+  top: 24.8264%;
+  left: 76.5982%;
+  width: 228px;
+}
+.grid-box-5 {
+  position: absolute;
+  top: 73.4375%;
+  left: 0.0436%;
+  width: 228px;
+}
+.grid-box-6 {
+  position: absolute;
+  top: 73.4375%;
+  left: 25.5619%;
+  width: 228px;
+}
+.grid-box-7 {
+  position: absolute;
+  top: 73.4375%;
+  left: 51.08%;
+  width: 228px;
+}
+.grid-box-8 {
+  position: absolute;
+  top: 73.4375%;
+  left: 76.5982%;
+  width: 228px;
+}
+.inflation-footer {
+  margin-top: 24px;
+  max-width: 945px;
+  margin-bottom: 0;
+}
